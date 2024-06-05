@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message to Discord Webhook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Send Message to Discord Webhook</h1>
+        <form id="webhookForm" action="send_webhook.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="avatar_url">Avatar URL:</label>
+                <input type="text" id="avatar_url" name="avatar_url" required>
+            </div>
+            <div class="form-group">
+                <label for="content">Message:</label>
+                <textarea id="content" name="content" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="webhook_url">Webhook URL:</label>
+                <input type="text" id="webhook_url" name="webhook_url" required>
+            </div>
+            <div class="form-group">
+                <button type="button" id="submitButton">Send</button>
+                <div class="loader" id="loader"></div>
+            </div>
+            <div id="message" style="color: red;"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
