@@ -9,7 +9,7 @@ Hello Guys! This is my first ever project its a basic webhooksender website that
   
 # 🚀 Setup 🚀
 
-1. Go to https://de.000webhost.com/ and create a account
+1. Go to https://de.000webhost.com/ and create a account (you can also use other hosting websites like infintyfree but here i am just showing how it works on 000webhost)
 2. Create your custom link domain
 3. Click on manage Link
 4. Scroll down and click on File Manager
