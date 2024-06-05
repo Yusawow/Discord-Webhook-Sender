@@ -18,6 +18,7 @@ Hello Guys! This is my first ever project its a basic webhooksender website that
 7. Now drag down all files before you do that extract the folder and then you can drag each file to public.html
 8. Go to your domain and now you have just made your own Webhook Sender Website
 
+Here is how it should look like: http://discord-webhook-sender.free.nf/
 
 # Contact Me
 Any question or do you want a custom website dm me
